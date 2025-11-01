@@ -1,0 +1,6 @@
+# .gitignore 파일 내용
+# (Git이 무시할 파일 목록)
+
+.env
+*.log
+__pycache__/
