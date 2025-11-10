@@ -1,0 +1,18 @@
+2025-11-10 21:17:56,098 INFO: DB ¼³Á¤(.env)À» ¼º°øÀûÀ¸·Î ºÒ·¯¿Ô½À´Ï´Ù.
+2025-11-10 21:17:56,100 INFO: Flask ¼­¹ö¸¦ 0.0.0.0:5002¿¡¼­ ½ÃÀÛÇÕ´Ï´Ù.
+2025-11-10 21:17:56,120 INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5002
+ * Running on http://192.168.0.100:5002
+2025-11-10 21:17:56,120 INFO: [33mPress CTRL+C to quit[0m
+2025-11-10 21:20:28,127 INFO: [Main] API ¿äÃ» ¼ö½Å: DB TypeID=2
+2025-11-10 21:20:28,131 INFO: 127.0.0.1 - - [10/Nov/2025 21:20:28] "[35m[1mPOST /process_trash HTTP/1.1[0m" 202 -
+2025-11-10 21:20:28,129 INFO: [BG-Task] ½ÃÀÛ: DB TypeID=2 ¼ö½Å
+2025-11-10 21:20:28,132 INFO: [BG-Task] ID º¯È¯: DB TypeID=2 -> Arduino Command=1
+2025-11-10 21:20:54,780 INFO: [Main] API ¿äÃ» ¼ö½Å: DB TypeID=2
+2025-11-10 21:20:54,781 INFO: 127.0.0.1 - - [10/Nov/2025 21:20:54] "[35m[1mPOST /process_trash HTTP/1.1[0m" 202 -
+2025-11-10 21:20:54,780 INFO: [BG-Task] ½ÃÀÛ: DB TypeID=2 ¼ö½Å
+2025-11-10 21:20:54,781 INFO: [BG-Task] ID º¯È¯: DB TypeID=2 -> Arduino Command=1
+2025-11-10 21:20:54,789 ERROR: ¾ÆµÎÀÌ³ë ½Ã¸®¾ó Åë½Å ¿À·ù: could not open port 'COM3': PermissionError(13, '¾×¼¼½º°¡ °ÅºÎµÇ¾ú½À´Ï´Ù.', None, 5)
+2025-11-10 21:20:54,790 ERROR: [BG-Task] ABORTED: ¾ÆµÎÀÌ³ë Á¦¾î ½ÇÆÐ (Command: 1). DB ±â·ÏÀ» ½ÃµµÇÏÁö ¾Ê½À´Ï´Ù.
+2025-11-10 21:20:54,790 INFO: [BG-Task] ¿Ï·á: TypeID=2
