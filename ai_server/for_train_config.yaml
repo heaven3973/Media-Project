@@ -1,0 +1,7 @@
+# test, train, valid 안에 각각 images 폴더와 labels 폴더가 있어야함
+train: ./Final_C_data/train
+val: ./Final_C_data/val
+test: ./Final_C_data/test
+
+nc: 12
+names: ['0','1','2','3','4','5','6','7','8','9','10','11']
